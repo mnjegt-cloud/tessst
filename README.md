@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Laser Art LB - Modern Web App
 
-This contains everything you need to run your app locally.
+This is a premium React-based landing page for Laser Art LB, optimized for mobile and desktop.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## How to use on GitHub
 
-## Run Locally
+1. **Upload**: Create a new GitHub repository and push all these files.
+2. **Images**: Ensure your product images (`p1.jpg`, `logo.webp`, etc.) are placed in the root directory.
+3. **Deployment**: 
+   - Go to **Settings > Pages**.
+   - Set **Source** to `GitHub Actions`.
+   - Your site will automatically deploy to `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`.
 
-**Prerequisites:**  Node.js
+## Local Development
 
+To run this on your computer:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Install Node.js.
+2. Open terminal in this folder.
+3. Run `npm install`.
+4. Run `npm run dev`.
+5. Open the provided local link (usually `http://localhost:5173`).
+
+## Key Features
+
+- **Animated Counter**: Customer stats transition from 0 to 500+ on scroll.
+- **WhatsApp Integration**: Dynamic order generation based on product choice.
+- **Modern UI**: Mesh gradients, glassmorphism, and smooth animations.
+- **Responsive**: Fully optimized for iPhones and Android devices.
